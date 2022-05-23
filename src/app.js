@@ -64,7 +64,7 @@ app.post("/",function(req,res) {
 
     form.save();
 
-    res.send(req.body.name  + "Thank you for submitting the form!")
+    res.send(req.body.name  + " Thank you for submitting the form!")
 });
 
 // app.get("", (req, res) => {
